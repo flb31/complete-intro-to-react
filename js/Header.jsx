@@ -13,7 +13,7 @@ const Header = (props: { showSearch?: boolean, handleSearchTermChange?: Function
   } else {
     search = (
       <h2>
-        <Link to="search">
+        <Link to="/search">
           back
         </Link>
       </h2>
