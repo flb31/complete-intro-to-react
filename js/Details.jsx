@@ -38,7 +38,7 @@ class Details extends Component {
       <div className="details">
         <Header />
         <section>
-          <h1>{title}</h1>
+          <h1>{title}!!</h1>
           <h2>({year})</h2>
           {ratingRender}
           <img src={`/public/img/posters/${poster}`} alt={`Poster of ${title}`} />
