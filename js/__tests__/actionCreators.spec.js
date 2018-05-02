@@ -1,7 +1,8 @@
 // @flow
 
 import moxios from 'moxios';
-import { setSearchTerm, addAPIData, getAPIDetails } from '../actionCreators';
+import { setSearchTerm, addAPIData } from '../actionCreators';
+import { getAPIDetails } from '../asyncActionCreators';
 
 const show = {
   title: 'Billions',
